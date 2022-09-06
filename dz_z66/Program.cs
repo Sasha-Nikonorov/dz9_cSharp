@@ -1,4 +1,4 @@
-﻿void SumFromMtoN(int m, int n, int sum)
+void SumFromMtoN(int m, int n, int sum = 0)
 {
     if (m > n)
     {
@@ -30,4 +30,4 @@ if (m > n)
     m = n;
     n = temp;
 }
-SumFromMtoN(m, n, temp = 0);
+SumFromMtoN(m, n);
